@@ -1,0 +1,138 @@
+body{
+    background-color: #370617;
+}
+.card__content{
+    width: 78px;
+    height: 78px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #9D0208;
+    margin-left: 19px;
+    margin-top: 63px;
+    margin-bottom: 19px;
+}
+
+.card1, .card2, .card3, .card4, .card5, .card6{
+    display: flex; 
+    flex-direction: row;
+}
+
+.square{
+   display: flex;
+    width: 956px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 98px;
+    justify-content: space-between;
+
+}
+
+.container{
+    width: 468px;
+    max-height: 160px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #F48C06;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+    margin-bottom: 20px;
+}
+
+.card2{
+    display: flex;
+    justify-content: center;
+}
+.card3{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-top: -30px;
+}
+
+
+.card__content2{
+    width: 78px;
+    height: 78px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #9D0208;
+    margin-left: 19px;
+    margin-top: 20px;
+    margin-bottom: 19px;
+    width: 78px;
+    height: 120px;
+    flex-shrink: 0;
+}
+.card4{
+    display: flex;
+    justify-content: space-around;
+}
+.card__content4{
+    width: 78px;
+    height: 78px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #9D0208;
+    margin-top: 62px;
+    margin-bottom: 20px;
+}
+.card__content41{
+    width: 78px;
+    height: 78px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #9D0208;
+    margin-top: 20px;
+}
+
+.card__content5, .card__content51{
+    width: 78px;
+    height: 78px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #9D0208;
+}
+
+    .card5{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.card__content51{
+    width: 78px;
+    height: 120px;
+    flex-shrink: 0;
+    margin-bottom: 20px;
+}
+.txt-one, .txt-two, .txt-three{
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+}
+.txt-one, .txt-three{
+    margin-top: 34px;
+}
+.txt-two{
+    margin-top: 11px;
+}
+.card__content6, .card__content61{
+    width: 78px;
+    height: 78px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #9D0208;
+}
+.card6{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 41px;
+}
+.card__content6{
+    width: 156px;
+    height: 78px;
+    flex-shrink: 0;
+}
